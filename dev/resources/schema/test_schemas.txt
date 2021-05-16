@@ -1,0 +1,44 @@
+--PRE-COVID-19
+--
+CREATE TABLE pre_covid_data(
+    iso_code varchar PRIMARY KEY,
+    country varchar,
+    population INT,
+    year INT,
+    co2 FLOAT,
+    co2_per_capita FLOAT,
+    co2_per_gdp FLOAT,
+    co2_growth_prct FLOAT, 
+    consumption_co2 FLOAT, 
+    consumption_co2_per_capita FLOAT, 
+    share_global_co2 FLOAT
+);
+
+___
+
+--Great Recession: 
+
+CREATE TABLE great_recession_data(
+    iso_code varchar PRIMARY KEY,
+    country varchar,
+    population INT,
+    year INT,
+    co2 FLOAT,
+    co2_per_capita FLOAT,
+    co2_per_gdp FLOAT,
+    co2_growth_prct FLOAT, 
+    consumption_co2 FLOAT, 
+    consumption_co2_per_capita FLOAT, 
+    share_global_co2 FLOAT
+);
+
+select * from pre_covid_data
+
+DROP TABLE great_recession_data;
+
+
+\copy "table_name" FROM '/path/to/csvfile' DELIMITER ',' CSV
+
+
+
+dev/whit/resources/data/great_recession.csv   dev/whit/resources/data/pre_covid.csv  dev/whit/resources/schema/data_tables_schema.txt
