@@ -1,0 +1,42 @@
+--PRE-COVID-19, 2010-2019 data
+--
+CREATE TABLE pre_covid_data(
+    record_no INT PRIMARY KEY,
+    iso_code varchar ,
+    country varchar,
+    population INT,
+    year INT,
+    co2 FLOAT,
+    co2_per_capita FLOAT,
+    co2_per_gdp FLOAT,
+    co2_growth_prct FLOAT, 
+    consumption_co2 FLOAT, 
+    consumption_co2_per_capita FLOAT, 
+    share_global_co2 FLOAT
+);
+
+___
+
+--Great Recession: 2007-2012
+
+CREATE TABLE great_recession_data(
+    record_no INT PRIMARY KEY, 
+    iso_code varchar,
+    country varchar,
+    population INT,
+    year INT,
+    co2 FLOAT,
+    co2_per_capita FLOAT,
+    co2_per_gdp FLOAT,
+    co2_growth_prct FLOAT, 
+    consumption_co2 FLOAT, 
+    consumption_co2_per_capita FLOAT, 
+    share_global_co2 FLOAT
+);
+
+---
+Notes: iso_code Column = '0' values replaced with "notfound"
+All Float Columns=Empty Values have a 0 placeholder. 
+
+--Whitney D. Gardner || AprilMay 2021
+Project: World Events/Carbon Emissions
