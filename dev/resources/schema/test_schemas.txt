@@ -40,5 +40,8 @@ DROP TABLE great_recession_data;
 \copy "table_name" FROM '/path/to/csvfile' DELIMITER ',' CSV
 
 
+--Whitney D. Gardner || AprilMay 2021
+Project: World Events/Carbon Emissions
 
-dev/whit/resources/data/great_recession.csv   dev/whit/resources/data/pre_covid.csv  dev/whit/resources/schema/data_tables_schema.txt
+
+
