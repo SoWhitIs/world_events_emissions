@@ -1,0 +1,55 @@
+Articles of Reference -Whitney D. Gardner || April/Map 2021
+ 
+Purpose: Find data that will support the claim, or help showcase correalations between 
+
+Focus Areas: 
+* Great Recession: 2007-2012
+* Pandemic: COVID-19/Cornoavirus: explore years between 2010-2019, Records show the years between 2010-2019 marked a decline in CO2 Emissions, primarily after the Paris Agreement
+
+Recession: 
+* https://www.nbcnews.com/id/wbna30853232
+
+
+COVID-19:
+* https://www.nbcnews.com/science/environment/carbon-emissions-2021-pass-pre-pandemic-levels-report-warns-n1264591(Author: Patrick Smith, Published: April 20, 2021, 7:57 AM EDT)
+* https://fortune.com/2021/04/20/carbon-emissions-rising-global-covid-pandemic-energy/
+* https://www.nature.com/articles/d41586-021-00090-3
+* https://www.iea.org/articles/global-energy-review-co2-emissions-in-2020
+* https://www.iea.org/reports/global-energy-review-2021/economic-impacts-of-covid-19#2021-a-year-of-global-economic-recovery
+* https://ourworldindata.org/new-co2-data-explorer
+* https://energy.economictimes.indiatimes.com/news/power/global-carbon-emissions-set-for-second-biggest-increase-in-history-iea/82268023 (ANI April 27, 2021, 08:30 IST)
+* https://phys.org/news/2021-03-pandemic-fall-global-carbon-emissions.html ( Ludwig Maximilian University of Munich, MARCH 22, 2021)
+
+Air Population Drops During COVID 
+* https://www.nbcnews.com/science/environment/carbon-emissions-dropped-17-percent-globally-amid-coronavirus-n1210331
+* http://a816-dohbesp.nyc.gov/IndicatorPublic/Closerlook/covidair/
+*
+
+BP World Energy In Review: 
+*https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy/year-in-review.html
+
+Notes:
+World Events: 
+* Great Recession: 2007-2012
+* COVID-19/Cornavirus: 
+
+* Look for data to support a decline during the years of 2008-2009
+	-check IEA cite
+* "" "" decline during COVID-19
+* Global Financial Crisis 2008, cited (Fortune:https://fortune.com/2021/04/20/carbon-emissions-rising-global-covid-pandemic-energy/, Author:SOPHIE MELLOR, April 20, 2021 12:40 PM EDT)
+
+
+ ) Global Energy Renewal 2008
+* Explore emissions from 2006-2019, 2020(where possible), cited Nature Climate Change
+	Resources: 
+	* Our World Data: https://ourworldindata.org/new-co2-data-explorer, GitHub: https://github.com/owid/co2-data
+
+* "Decreases from 4 percent to 7 percent are roughly in line with how much global emissions would need to fall each year to keep global warming below 1.5 degrees to 2 degrees Celsius, as outlined under the 2015 Paris climate agreement.", cited NBCNews(article: https://www.nbcnews.com/science/environment/carbon-emissions-dropped-17-percent-globally-amid-coronavirus-n1210331, Author Denise Chow, Published:May 19, 2020, 11:00 AM EDT ))
+
+Geographic Regions: 
+ Homeland Security:
+*https://www.dhs.gov/geographic-regions
+
+Sciencing 101: 
+*https://sciencing.com/10-geographic-regions-world-8774247.html
+
