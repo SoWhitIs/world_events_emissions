@@ -1,7 +1,7 @@
-﻿Whitney D. Gardner April/Map2021
+﻿Whitney D. Gardner April/May 2021
 Final Project: World Events & Carbon Emissions
-Columbia Data Analytics BootCamp
-
+Columbia University Data Analytics BootCamp
+__
 
 CREATE TABLE "decades_co_emissions" (
     "record_no" INT   NOT NULL,
@@ -17,10 +17,6 @@ CREATE TABLE "decades_co_emissions" (
     "trade_co2" FLOAT   NOT NULL,
     "trade_co2_share" FLOAT   NOT NULL,
     "co2_per_capita" FLOAT   NOT NULL,
-    "consumption_co2_per_capita" FLOAT   NOT NULL,
-    "share_global_co2" FLOAT   NOT NULL,
-    "cumulative_co2" FLOAT   NOT NULL,
-    "co2_per_gdp" FLOAT   NOT NULL,
     "consumption_co2_per_gdp" FLOAT   NOT NULL,
     "cement_co2" FLOAT   NOT NULL,
     "coal_co2" FLOAT   NOT NULL,
@@ -52,10 +48,6 @@ CREATE TABLE "recession" (
     "trade_co2" FLOAT   NOT NULL,
     "trade_co2_share" FLOAT   NOT NULL,
     "co2_per_capita" FLOAT   NOT NULL,
-    "consumption_co2_per_capita" FLOAT   NOT NULL,
-    "share_global_co2" FLOAT   NOT NULL,
-    "cumulative_co2" FLOAT   NOT NULL,
-    "co2_per_gdp" FLOAT   NOT NULL,
     "consumption_co2_per_gdp" FLOAT   NOT NULL,
     "cement_co2" FLOAT   NOT NULL,
     "coal_co2" FLOAT   NOT NULL,
@@ -87,10 +79,6 @@ CREATE TABLE "region" (
     "trade_co2" FLOAT   NOT NULL,
     "trade_co2_share" FLOAT   NOT NULL,
     "co2_per_capita" FLOAT   NOT NULL,
-    "consumption_co2_per_capita" FLOAT   NOT NULL,
-    "share_global_co2" FLOAT   NOT NULL,
-    "cumulative_co2" FLOAT   NOT NULL,
-    "co2_per_gdp" FLOAT   NOT NULL,
     "consumption_co2_per_gdp" FLOAT   NOT NULL,
     "cement_co2" FLOAT   NOT NULL,
     "coal_co2" FLOAT   NOT NULL,
@@ -109,14 +97,17 @@ CREATE TABLE "region" (
 );
 
 ALTER TABLE "recession" ADD CONSTRAINT "fk_recession_record_no" FOREIGN KEY("record_no")
-REFERENCES "decades_co_emissions" ("record_no");
+REFERENCES "region" ("record_no");
 
 ALTER TABLE "region" ADD CONSTRAINT "fk_region_record_no" FOREIGN KEY("record_no")
-REFERENCES "recession" ("record_no");
+REFERENCES "decades_co_emissions" ("record_no");
 
-___
+
+__
 
 Notes: 
 
 * Numeric-based columns (FLOAT, INT) with missing values were replaced with "0"
 * Text-based (VARCHAR) columns  missing information were replaced with "notfound"
+
+
