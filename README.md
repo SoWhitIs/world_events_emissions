@@ -148,7 +148,7 @@ Check out additional findings in the [images](https://github.com/SoWhitIs/world_
 ##  Machine Learning Model: Popular Carbon Emissions Type
 
 
-The next phase of this analysis will incorporate a machine learning model to predict the which CO2 emission type per capita per region caused the most impact during the same economic backdrop of 2007 - 2012. 
+The next phase of this analysis will incorporate a regression machine learning model to predict the which CO2 emission type per capita per region caused the most impact during the same economic backdrop of 2007 - 2012. 
 
 As well, comparing the gloabl economic crisis of the previous time to that of recent pandemic, posing the same (and new, sub-) questions, in expectation of varing results. 
  * Which regions are likely to to have the heightest carbon emissions per capita post global impacted event? How do the numbers compare to previous globally impacted events? Have the emissions decreased, increased, or on par (remaining the same).
@@ -156,7 +156,7 @@ As well, comparing the gloabl economic crisis of the previous time to that of re
 
 **Next Phase Considerations:**
 
-* Independent Variables: Carbon Emissions By Type
+* Independent Variables/Features: Carbon Emissions By Type
     * coal
     * gas
     * industry
