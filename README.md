@@ -86,13 +86,41 @@ The top 3 Emitters of CO2 Emissions during 2007-2012, were **Asisa** , **North A
 </p>
 
 **Central America**
+
 **Central America's** emissions increased in 2009 and remained the following year. 
 
+</p>
+<p align="center">
+  <img src="final/resources/images/cen_co2_per_capita.png"/>
+</p>
+
 **Oceania**
+
 **Oceania** illustrasted a steady decline since 2007. 
 
+</p>
+<p align="center">
+  <img src="final/resources/images/oceania_co2_per_capita.png"/>
+</p>
+
 **Africa**
+
 **Africa** carbon emissions was noticably strong in 2008. 
+</p>
+<p align="center">
+  <img src="final/resources/images/africa_co2_per_capita.png"/>
+</p>
+
+**South America**
+**South America** presented a staggered-like increase and decline in Carbon Emissions during this the period of 2007-2012. 
+
+</p>
+<p align="center">
+  <img src="final/resources/images/soam_co2_per_capita.png"/>
+</p>
+
+Check out additional findings in the [images](https://github.com/SoWhitIs/world_events_emissions/tree/final_wdg/final/resources/images)folder under the "resources" directory and [full] presentation(https://github.com/SoWhitIs/world_events_emissions#presentation). 
+#
 
 ## Presentation
  Final presentation can be viewed, [here](final/presentation/world_events_emissions_wdg_fp_pres.pdf).
