@@ -46,12 +46,14 @@ Analysis was conducted from dataset sourced from [Our World Data](https://github
 
 Dataset provided a substantial set of global carbon emission records dating back to 1750. 
 
+Raw data was "cleaned" or mined down to a 20-year time period. ["Cleaned" Dataset](final/resources/data/decade_co_emissions_fp.csv)
 #
 ## Dashboard
-** Visualization: ** Matplotlib
 
-insert images (share link of image folder)
-[Tableau](insert link) 
+[**Visualization:**](https://github.com/SoWhitIs/world_events_emissions/tree/final_wdg/final/resources/images) Matplotlib
+
+
+[Tableau](To be implemented in next iteration.) 
 #
 
 ## Results/Findings
@@ -60,7 +62,7 @@ Is there a correlation between carbon emission activity and world events? _Yes._
 
 More deeply, carbon emissions are at the helm, derived from human behaviors. If human behaviors are impacted, or a changed due to extenuating circumstances, such as an economic collapse, a vow to reduce carbon footprint, emissions will, also,  undeniably be affected. 
 
-**What else the analysis revealed?**
+**What else _did_ the analysis revealed?**
 
 **Carbon Emissions Overall**
 
@@ -141,8 +143,41 @@ Check out additional findings in the [images](https://github.com/SoWhitIs/world_
 [Schema](final/resources/schema/world_events_carbon_schema_fp_wdg.sql)
 
 #
-## Machine Learning Model: Popular Carbon Emissions Type
- In the next iteration this analysis 
+##  Machine Learning Model: Popular Carbon Emissions Type
+
+
+The next phase of this analysis will incorporate a machine learning model to predict the which CO2 emission type per capita per region caused the most impact during the same economic backdrop of 2007 - 2012. 
+
+As well, comparing the gloabl economic crisis of the previous time to that of recent pandemic, posing the same (and new, sub-) questions, in expectation of varing results. 
+ * Which regions are likely to to have the heightest carbon emissions per capita post global impacted event? How do the numbers compare to previous globally impacted events? Have the emissions decreased, increased, or on par (remaining the same).
+
+
+**Next Phase Considerations:**
+
+* Independent Variables: Carbon Emissions By Type
+    * coal
+    * gas
+    * industry
+    * oil
+    * consumption 
+    * trade
+    * flaring
+    * cement
+
+
+* Geographical Regions
+    * Africa
+    * Asisa
+    * Australia
+    * Carribean
+    * Central America
+    * North America
+    * Oceania
+    * South America
+
+* Time Period: Post-Pandemic,  The Great Recession 2007-2012, Economic Crisis 2012
+
+ **Intial Predictions**: Coal and gas will _"emit"_ high amongst the Americas, Australian, Asia, and The Caribbean regions (based on initial review with current "cleaned" dataset). 
 #
 
 ## Methods & Tools 
