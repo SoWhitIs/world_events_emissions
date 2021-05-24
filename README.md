@@ -46,7 +46,8 @@ Analysis was conducted from dataset sourced from [Our World Data](https://github
 
 Dataset provided a substantial set of global carbon emission records dating back to 1750. 
 
-Raw data was "cleaned" or mined down to a 20-year time period. ["Cleaned" Dataset](final/resources/data/decade_co_emissions_fp.csv)
+Raw data was "cleaned" or mined down to a 20-year time period. 
+   - ["Cleaned" Dataset](final/resources/data/decade_co_emissions_fp.csv)
 #
 ## Dashboard
 
