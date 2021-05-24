@@ -1,4 +1,4 @@
-# World Events _&_ Carbon Emissions || Might there be a link between the state of the world and carbon emissions activity? 
+# World Events _&_ Carbon Emissions 
 
 ## Overview
 Carbon Emissions are in part, one of the greatest contributors to Global Warming. 
@@ -23,6 +23,7 @@ _That is…_
 (4)	and the “state” of the region in which carbon emissions are present, also play a part of significance. 
 
 Of late, the world is experiencing, aforementioned, a pandemic.   Records indicate, at first glance, a rather interesting correlation between the “state” of the world and the emission of CO2, by which will be furthered explored in this analysis. 
+
 #
 
 ## Areas of Focus 
@@ -43,7 +44,7 @@ Of late, the world is experiencing, aforementioned, a pandemic.   Records indica
 ## Data Source
 Analysis was conducted from dataset sourced from [Our World Data](https://github.com/owid/co2-data). 
 
-Dataset provided a substantial set of global records dating back to 1750. 
+Dataset provided a substantial set of global carbon emission records dating back to 1750. 
 
 #
 ## Dashboard
@@ -61,37 +62,67 @@ More deeply, carbon emissions are at the helm, derived from human behaviors. If 
 
 **What else the analysis revealed?**
 
-The top 3 Emitters of CO2 Emissions during 2007-2012, were Asisa , North America, and Europe
+**Carbon Emissions Overall**
 
-(insert overall images, here.)
+The top 3 Emitters of CO2 Emissions during 2007-2012, were **Asisa** , **North America**, and **Europe**
 
-#
+
+<p align="center">
+  <img src="final/resources/images/avg_geo_reg_co2_pie.png"/>
+</p>
+
+**Highest Carbon Emissions Per Capita**
+
+**Australia** and **Carribean** tends to lean towards having the highest emissions per capita during this time period
+
+ </p>
+<p align="center">
+  <img src="final/resources/images/all_reg_co2_per_capita_multiline_without_car.png"/>
+</p>
+
+</p>
+<p align="center">
+  <img src="final/resources/images/avg_geo_reg_co2_capita_bar.png"/>
+</p>
+
+**Central America**
+**Central America's** emissions increased in 2009 and remained the following year. 
+
+**Oceania**
+**Oceania** illustrasted a steady decline since 2007. 
+
+**Africa**
+**Africa** carbon emissions was noticably strong in 2008. 
 
 ## Presentation
  Final presentation can be viewed, [here](final/presentation/world_events_emissions_wdg_fp_pres.pdf).
 #
 
 ## Database
- ** Relational Database: PostgreSQL**
-**Initial Stages** → Source Data → **Next Stage** → EDA: Review, Clean Data, Create Schema→ **Last Stage** →   Import, Store Data in Database, via Pandas
 
-ERD
-(insert image)
-Database
-schema
+ **Relational Database: PostgreSQL**
+
+    **Initial Stages** → Source Data → **Next Stage** → EDA: Review, Clean Data, Create Schema→ **Last Stage** →   Import, Store Data in Database, via Pandas
+
+[Entity Relationship Diagram (ERD)](final/resources/schema/ERD_world_events_carbon_df_fp.png)
+
+[Database](final/resources/schema/decades_co_emissions_schema_fp_wdg_data_loaded.png)
+
+
+[Schema](final/resources/schema/world_events_carbon_schema_fp_wdg.sql)
+
 #
-
 ## Machine Learning Model: Popular Carbon Emissions Type
  In the next iteration this analysis 
 #
 
 ## Methods & Tools 
 PostgreSQL 11, pgAdmin 4 v 5 | Python, Python Libaries: Pandas, Mathplotlib, SQLAlchemy, Psycopg2 | VS Code 1.54.3, Microsoft Excel, PowerPoint | Jupyter Notebook** 
-Jupyter Notebook** 
-    * Data Access: Workaround, [Project Jupyter: jupyter nbviewer](https://nbviewer.jupyter.org/), a Jupyter Notebook renderer **
+ 
+* Data Access: Workaround, [Project Jupyter: jupyter nbviewer](https://nbviewer.jupyter.org/), a Jupyter Notebook renderer **
      * Data may not display properly on GitHub, please use provided workaround
-“Cleaned Dataset” : 
-
+ 
+#
 ## References
  
 An extensive list of reference  used during this analysis can be found within the ["resources"](final/resources/sources_ref_wdg_fp.pdf) folder directory. 
