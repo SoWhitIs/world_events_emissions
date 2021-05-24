@@ -112,6 +112,7 @@ The top 3 Emitters of CO2 Emissions during 2007-2012, were **Asisa** , **North A
 </p>
 
 **South America**
+
 **South America** presented a staggered-like increase and decline in Carbon Emissions during this the period of 2007-2012. 
 
 </p>
@@ -119,7 +120,7 @@ The top 3 Emitters of CO2 Emissions during 2007-2012, were **Asisa** , **North A
   <img src="final/resources/images/soam_co2_per_capita.png"/>
 </p>
 
-Check out additional findings in the [images](https://github.com/SoWhitIs/world_events_emissions/tree/final_wdg/final/resources/images)folder under the "resources" directory and [full] presentation(https://github.com/SoWhitIs/world_events_emissions#presentation). 
+Check out additional findings in the [images](https://github.com/SoWhitIs/world_events_emissions/tree/final_wdg/final/resources/images) folder under the _resources_ directory and [full presentation](https://github.com/SoWhitIs/world_events_emissions#presentation). 
 #
 
 ## Presentation
