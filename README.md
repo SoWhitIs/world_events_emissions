@@ -2,6 +2,7 @@
 
 ## Overview
 Carbon Emissions are in part, one of the greatest contributors to Global Warming. 
+
 Despite the signing of The Paris Agreement in 2015, an international treaty on climate change, carbon emissions, as well as, temperatures are notably, _still_ rising. 
 
 However, since the Coronavirus (COVID-19) Pandemic, starting 2020, it has been reported from the [International Energy Agency (IEA)]( https://www.iea.org/reports/global-energy-review-2021/co2-emissions), CO2 emissions have fallen about 6%.  
