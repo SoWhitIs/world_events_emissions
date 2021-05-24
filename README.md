@@ -46,7 +46,8 @@ Analysis was conducted from dataset sourced from [Our World Data](https://github
 
 Dataset provided a substantial set of global carbon emission records dating back to 1750. 
 
-Raw data was "cleaned" or mined down to a 20-year time period. ["Cleaned" Dataset](final/resources/data/decade_co_emissions_fp.csv)
+Raw data was "cleaned" or mined down to a 20-year time period. 
+   - ["Cleaned" Dataset](final/resources/data/decade_co_emissions_fp.csv)
 #
 ## Dashboard
 
@@ -66,7 +67,7 @@ More deeply, carbon emissions are at the helm, derived from human behaviors. If 
 
 **Carbon Emissions Overall**
 
-The top 3 Emitters of CO2 Emissions during 2007-2012, were **Asisa** , **North America**, and **Europe**
+The top 3 Emitters of CO2 Emissions during 2007-2012, were **Asisa** , **North America**, and **Europe**.
 
 
 <p align="center">
@@ -75,7 +76,7 @@ The top 3 Emitters of CO2 Emissions during 2007-2012, were **Asisa** , **North A
 
 **Highest Carbon Emissions Per Capita**
 
-**Australia** and **Carribean** tends to lean towards having the highest emissions per capita during this time period
+**Australia** and **Carribean** tends to lean towards having the highest emissions per capita during this time period.
 
  </p>
 <p align="center">
@@ -180,7 +181,7 @@ As well, comparing the gloabl economic crisis of the previous time to that of re
  **Intial Predictions**: Coal and gas will _"emit"_ high amongst the Americas, Australian, Asia, and The Caribbean regions (based on initial review with current "cleaned" dataset). 
 #
 
-## Methods & Tools 
+## Methods _&_ Tools 
 PostgreSQL 11, pgAdmin 4 v 5 | Python, Python Libaries: Pandas, Mathplotlib, SQLAlchemy, Psycopg2 | VS Code 1.54.3, Microsoft Excel, PowerPoint | Jupyter Notebook** 
  
 * Data Access: Workaround, [Project Jupyter: jupyter nbviewer](https://nbviewer.jupyter.org/), a Jupyter Notebook renderer **
