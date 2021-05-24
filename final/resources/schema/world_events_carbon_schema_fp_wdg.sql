@@ -1,6 +1,6 @@
 ﻿Whitney D. Gardner April/May 2021
 Final Project: World Events & Carbon Emissions
-Columbia University Data Analytics BootCamp
+Columbia Engineering Data Analytics  Boot Camp 
 
 ___
 
